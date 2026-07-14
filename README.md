@@ -5,7 +5,7 @@ A Python project blueprint with a clean, modular structure designed for developm
 ## Features
 
 - **Domain-driven design** — clear separation of concerns across `core/`, `infrastructure/`, `app/`, `ui/`, `data/`, and `tools/`
-- **Modern tooling** — ruff for linting and formatting, mypy for strict type checking, pytest for testing
+- **Modern tooling** — ruff for linting and formatting, mypy for strict type checking, python -m pytest for testing
 - **AI-friendly** — `AGENTS.md` and `prompts.md` guide AI agents through project conventions
 - **Python 3.11+** — takes advantage of modern Python features
 
@@ -43,7 +43,7 @@ hatch env create dev
 ### Run Tests
 
 ```bash
-pytest
+python -m pytest
 ```
 
 ### Lint and Format

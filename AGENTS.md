@@ -21,7 +21,7 @@ tests/                  # Test suite
 - Python 3.11+ required
 - Use `ruff` for linting and formatting
 - Use `mypy` for type checking (strict mode)
-- Use `pytest` for testing
+- Use `python -m pytest` for testing
 - All functions must have type annotations
 - Follow domain-driven design: core logic in `core/`, I/O in `infrastructure/`
 - No comments in code unless absolutely necessary
@@ -36,7 +36,7 @@ pip install -e ".[dev]"
 hatch env create dev
 
 # Run tests
-pytest
+python -m pytest
 
 # Lint
 ruff check

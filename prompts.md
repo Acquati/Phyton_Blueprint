@@ -25,5 +25,5 @@ After making changes, always run:
 ruff check .
 ruff format --check .
 mypy src
-pytest
+python -m pytest
 ```
