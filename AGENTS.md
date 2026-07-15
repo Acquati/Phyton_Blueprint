@@ -39,13 +39,13 @@ hatch env create dev
 python -m pytest
 
 # Lint
-ruff check
+python -m ruff check
 
 # Format
-ruff format
+python -m ruff format
 
 # Type check
-mypy src
+python -m mypy src
 ```
 
 ## Workflow

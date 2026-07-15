@@ -22,8 +22,8 @@ This file contains prompts and instructions for AI agents working on this projec
 After making changes, always run:
 
 ```bash
-ruff check .
-ruff format --check .
-mypy src
+python -m ruff check .
+python -m ruff format --check .
+python -m mypy src
 python -m pytest
 ```
